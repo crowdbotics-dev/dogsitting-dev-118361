@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
   },
   JfMFhrTL: {
     width: 50,
-    height: 25
+    height: 29
   },
   JXXdsJnq: {
     backgroundColor: "#ffffff",
