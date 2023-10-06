@@ -8,7 +8,4 @@ const taylorTestConnector = axios.create({
     Authorization: `Bearer ${TAYLOR_TEST_CONNECTOR_TOKEN}`
   }
 })
-function taylortestconnector_get__read(payload) {
-  return taylorTestConnector.get(`/`)
-}
-export const apiService = { taylortestconnector_get__read }
+export const apiService = {}
