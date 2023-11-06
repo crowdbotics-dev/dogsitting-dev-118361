@@ -1,5 +1,5 @@
-import axios from "axios"
-import { TAYLOR_NEW_TOKEN_IN_HEADER_TOKEN } from "react-native-dotenv"
+import axios from "axios";
+import { TAYLOR_NEW_TOKEN_IN_HEADER_TOKEN } from "react-native-dotenv";
 const taylornewtokeninheader = axios.create({
   baseURL: "https://www.google.ca",
   headers: {
@@ -7,5 +7,5 @@ const taylornewtokeninheader = axios.create({
     "Content-Type": "application/json",
     Authorization: `Bearer ${TAYLOR_NEW_TOKEN_IN_HEADER_TOKEN}`
   }
-})
-export const apiService = {}
+});
+export const apiService = {};
